@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Envío</title>
+</head>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Envío</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <section id="remitente">
+        <h2>Remitente</h2>
+        <label for="nombreRemitente">Nombre:</label>
+        <input type="text" id="nombreRemitente"><br>
+        <label for="ciudadRemitente">Ciudad:</label>
+        <input type="text" id="ciudadRemitente"><br>
+        <label for="estadoRemitente">Estado:</label>
+        <input type="text" id="estadoRemitente"><br>
+        <label for="domicilioRemitente">Domicilio:</label>
+        <input type="text" id="domicilioRemitente"><br>
+        <label for="codigoPostalRemitente">Código Postal:</label>
+        <input type="text" id="codigoPostalRemitente"><br>
+        <label for="telefonoRemitente">Teléfono:</label>
+        <input type="text" id="telefonoRemitente"><br>
+    </section>
+
+    <section id="destinatario">
+        <h2>Destinatario</h2>
+        <label for="nombreDestinatario">Nombre:</label>
+        <input type="text" id="nombreDestinatario"><br>
+        <label for="ciudadDestinatario">Ciudad:</label>
+        <input type="text" id="ciudadDestinatario"><br>
+        <label for="estadoDestinatario">Estado:</label>
+        <input type="text" id="estadoDestinatario"><br>
+        <label for="domicilioDestinatario">Domicilio:</label>
+        <input type="text" id="domicilioDestinatario"><br>
+        <label for="codigoPostalDestinatario">Código Postal:</label>
+        <input type="text" id="codigoPostalDestinatario"><br>
+        <label for="telefonoDestinatario">Teléfono:</label>
+        <input type="text" id="telefonoDestinatario"><br>
+    </section>
+
+    <section id="mercancia">
+        <h2>Mercancía</h2>
+        <label for="descripcion">Descripción:</label>
+        <input type="text" id="descripcion"><br>
+        <label for="peso">Peso:</label>
+        <input type="text" id="peso"><br>
+        <label for="largo">Largo:</label>
+        <input type="text" id="largo"><br>
+        <label for="ancho">Ancho:</label>
+        <input type="text" id="ancho"><br>
+        <label for="alto">Alto:</label>
+        <input type="text" id="alto"><br>
+        <label for="fechaSalida">Fecha de Salida (dd/mm/yyyy):</label>
+        <input type="text" id="fechaSalida" placeholder="dd/mm/yyyy"><br>
+        <label for="fechaLlegada">Fecha de Llegada (dd/mm/yyyy):</label>
+        <input type="text" id="fechaLlegada" placeholder="dd/mm/yyyy"><br>
+        <label for="precio">Precio de Envío:</label>
+        <input type="text" id="precio"><br>
+    </section>
+
+    <button id="registrar">Registrar</button>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Remitente</th>
+                <th>Destinatario</th>
+                <th>Mercancía</th>
+            </tr>
+        </thead>
+        <tbody id="tablaBody">
+            <!-- Aquí se agregarán los registros -->
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>

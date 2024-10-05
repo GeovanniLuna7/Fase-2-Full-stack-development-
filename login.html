@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesión</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>Iniciar Sesión</h2>
+    <form id="loginForm"> <!-- ID del formulario -->
+        <label for="username">Usuario:</label>
+        <input type="text" id="username" required> <!-- ID del campo usuario -->
+        <br>
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" required> <!-- ID del campo contraseña -->
+        <br>
+        <button type="submit">Iniciar Sesión</button> <!-- Botón para enviar el formulario -->
+    </form>
+    <p id="errorMessage" style="color:red;"></p> <!-- Mensaje de error -->
+
+    <br>
+    <!-- Botón para crear alerta -->
+    <button id="alertButton">Crear Alerta</button> <!-- Botón para crear alerta -->
+    <p id="alertMessage"></p> <!-- Mensaje de confirmación de alerta -->
+    <div id="notifications"></div> <!-- Contenedor para las notificaciones -->
+
+    <script src="script.js"></script> <!-- Enlace al archivo script.js -->
+</body>
+</html>

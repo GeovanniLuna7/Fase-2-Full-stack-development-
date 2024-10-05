@@ -1,0 +1,13 @@
+config:
+  target: 'http://localhost:5500'  # Cambia esto a la URL donde está corriendo tu aplicación
+  phases:
+    - duration: 60  # Duración de la prueba en segundos
+      arrivalRate: 5  # Número de usuarios que llegan por segundo
+
+scenarios:
+  - flow:
+      - post:
+          url: '/login'  # Cambia esto según el endpoint que desees probar
+          json:
+            username: "usuario1"  # Cambia esto a un nombre de usuario válido
+            password: "password1"   # Cambia esto a una contraseña válida

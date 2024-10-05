@@ -1,0 +1,14 @@
+defaultPortal: pagina
+portals:
+  - name: pagina
+    portalId: 47478756
+    env: prod
+    authType: personalaccesskey
+    auth:
+      tokenInfo:
+        accessToken: >-
+          CImxidilMhIRAAUAQAAAAGwAQAJYAgEAAAgY5O_RFiD8qvwhKO7pDDIUPMnqt82TPluKGWpk_bA6EmGvl9Q6TAAABEEAAAAAAAAAAAAAAAAAgAAAAAAABAAAAAAAAAAAPGBQAABEAABA_BgGABAgAwAAAAAADAAAAAAAAAAAAAAEAAAAAAAAAAAAABBCFIpQUnLCdYibAmTj06gjCiaQoPBpSgNuYTFSAFoAYAA
+        expiresAt: '2024-10-05T04:48:53.426Z'
+    accountType: STANDARD
+    personalAccessKey: >-
+      CiRiOTk0OThjMy0zOWVlLTQzODUtOTBlMC0wMzI4NGU4OTFlOWYQ5O_RFhj8qvwhKhkABeaRgnyOaBJr60TdGDIjgsNuLYrEV364SgNuYTE

@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  alerts:
+    build:
+      context: ./backend/alertsService
+      dockerfile: Dockerfile
+    ports:
+      - "5500:5500"
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "5501:5500"  
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
